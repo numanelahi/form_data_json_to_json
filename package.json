@@ -6,6 +6,10 @@
   "scripts": {
     "test": "node test.js"
   },
+  "respository": {
+    "type": "git",
+    "url": "https://github.com/numanelahi/form_data_json_to_json.git"
+  },
   "author": "NumanElahi (elahinouman.elahi@gmail.com)",
   "license": "MIT",
   "dependencies": {}
