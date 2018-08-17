@@ -1,0 +1,12 @@
+{
+  "name": "from-data-parser",
+  "version": "1.0.0",
+  "description": "Converts form data to JSON",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "NumanElahi (elahinouman.elahi@gmail.com)",
+  "license": "MIT",
+  "dependencies": {}
+}
