@@ -2,7 +2,7 @@
 Library to convert multyparty parsed json to proper json.
 
 ## Installation
-> npm install arreglo
+> npm i arreglo
 
 ## Example
 > let arreglar = require('arreglo'); \
