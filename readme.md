@@ -1,18 +1,18 @@
-# Parser.js
+# Arreglo.js
 Library to convert multyparty parsed json to proper json.
 
 ## Installation
-> npm install form-data-parser
+> npm install arreglo
 
 ## Example
-> cosnt parse = require('form-data-parser'); \
-> const data = { \
+> let arreglar = require('arreglo'); \
+> let data = { \
 > &nbsp;&nbsp;&nbsp;&nbsp;"user[0][name]": ["Anonymous_1"], \
 > &nbsp;&nbsp;&nbsp;&nbsp;"user[0][age]": [25], \
 > &nbsp;&nbsp;&nbsp;&nbsp;"user[1][name]": ["Anonymous_2"], \
 > &nbsp;&nbsp;&nbsp;&nbsp;"user[1][age]": [25] \
 > };\
-> const data = parse(data);\
+> let data = arreglar(data);\
 > console.log(data);\
 > /*\
 >   data = {\

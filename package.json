@@ -1,10 +1,10 @@
 {
-  "name": "from-data-parser",
+  "name": "arreglo",
   "version": "1.0.0",
-  "description": "Converts form data to JSON",
+  "description": "Converts multyparty formated json to proper json",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js"
   },
   "author": "NumanElahi (elahinouman.elahi@gmail.com)",
   "license": "MIT",
