@@ -1,6 +1,6 @@
 {
   "name": "arreglo",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Converts multyparty formated json to proper json",
   "main": "index.js",
   "scripts": {
