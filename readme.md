@@ -13,10 +13,10 @@ Library to convert multyparty parsed json to proper json.
      "user[1][name]": ["Anonymous_2"], 
      "user[1][age]": [25] 
  };
- let data = arreglar(data);
- console.log(data);
+ let parsed_data = arreglar(data);
+ console.log(parsed_data);
  /**
-  *  data = {
+  *  parsed_data = {
   *     user: [
   *         {
   *              name: "Anonymous_1",
