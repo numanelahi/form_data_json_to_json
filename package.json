@@ -4,7 +4,7 @@
   "description": "Converts multyparty formated json to proper json",
   "main": "index.js",
   "scripts": {
-    "test": "node test.js"
+    "test": "mocha"
   },
   "respository": {
     "type": "git",
@@ -12,5 +12,8 @@
   },
   "author": "NumanElahi (elahinouman.elahi@gmail.com)",
   "license": "MIT",
-  "dependencies": {}
+  "dependencies": {},
+  "devDependencies": {
+    "should": "^13.2.3"
+  }
 }
