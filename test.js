@@ -46,5 +46,20 @@ describe("form_data#", () => {
     it(`first element of 'page_rules' should be an object with attributes 'rule' and 'url' equal to 'Never show' and '/aboutus' respectively`, () => {
         form_data.configuration.page_rules[0].should.be.an.Object().which.deepEqual({rule: 'Never show', url: '/aboutus'});
     });
+
+    it(`should have an attribute acknowledgement which should be an object`, () => {
+        form_data.should.have.a.property('acknowledgement').which.should.be.an.Object();
+    });
+
+    it(`attribute 'acknowledgement' should have attribute 'type' which should be an object`, () => {
+        form_data.acknowledgement.should.have.property('type').which.should.be.an.Object();
+    });
+
+    it(`attribute 'type' of acknolegdement should be equal to {'object1': [Object object], 'object2': [Object object]}`, () => {
+        form_data.acknowledgement.type.should.be.deepEqual({
+            object1: {prop1: "Hola", prop2: "Hola"},
+            object2: {prop1: "Comoestas", prop2: "Comoestas"}
+        });
+    })
 });
 
